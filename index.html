@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- グローバルナビゲーション（ヘッダー）START -->
+  <header>
+    <nav class="g-navi">
+      <div class="container nav-wrapper">
+        <ul>
+          <li><a href="#concept">CONCEPT</a></li>
+          <li><a href="#feature">About</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- グローバルナビゲーション（ヘッダー）END -->
+  <!-- ファーストビューSTART -->
+  <section id="main-visual">
+    <div class="container mv-wrapper">
+      <div class="mv-right">
+        <h1>RYO TANAKA</h1>
+        <p class="text">Portfolio</p>
+      </div>
+    </div>
+  </section>
+  <!-- ファーストビューEND -->
+  <!-- コンセプトSTART -->
+  <section id="concept">
+    <div class="container">
+      <div class="title">
+        <h2>Concept</h2>
+        <span class="ja-title">コンセプト</span>
+      </div>
+      <div class="concept-copy">
+        <h3 class="main-copy">自分の個性を出したビジュアル表現</h3>
+        <p class="concept-text">コンセプトは<br><strong>ビジュアルを重視したデザインです。</strong></p>
+        <p class="concept-text">HTML、CSSを使用して制作しました。<br>見やすさを重視して少しシンプルにカラフルさを取り入れました。</p>
+        <p class="concept-text"><br></p>
+        <p class="concept-text"><br></p>
+      </div>
+    </div>
+  </section>
+  <!-- コンセプトEND -->
+  <!-- こだわりSTART -->
+  <section id="feature">
+    <div class="container">
+      <div class="title">
+        <h2>About</h2>
+        <span class="ja-title">自己紹介</span>
+      </div>
+      <div class="feature-wrapper">
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature01.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point1</span>
+            <h3 class="feature-title">名前: 田中椋 Tanaka Ryo</h3>
+            <p class="feature-about about-text">生年月日: 2000年3月9日 </p>
+            <p>星座: 魚座</p>
+            <p>メールアドレス: tanaka@gamil.com</p>
+          </div>
+        </div>
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature02.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point2</span>
+            <h3 class="feature-title">スキル</h3>
+            <p class="feature-about about-text">プログラミング: HTML、CSS、Java</p>
+            <p>オフィススキル: Excel 、Word、PowerPoint</p>
+          </div>
+        </div>
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature03.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point3</span>
+            <h3 class="feature-title">その他</h3>
+            <p class="feature-about about-text">２０２０年3月からプログラミング学習を始める。Webデザイナー、プログラマーを目指し転職活動を開始。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせSTART -->
+  <section id="contact">
+    <div class="container">
+      <div class="title">
+        <h2>Contact</h2>
+        <p class="ja-title">お問い合わせ</p>
+      </div>
+      <form action="index.php" method="post">
+        <div class="ct-block">
+          <label class="contact-text" for="name">お名前</label>
+          <input type="text" name="yourname" placeholder="例：田中太郎" class="form-name" required>
+        </div>
+        <div class="ct-block">
+          <label class="contact-text" for="email">メールアドレス</label>
+          <input type="text" name="mail" placeholder="例：xxxxx@△△△△△.com" class="form-mail" required>
+        </div>
+        <div class="ct-block">
+          <label for="request-about" class="contact-text">お問い合わせ内容</label>
+          <textarea name="request-about" id="request-about" cols="60" rows="6" placeholder="ここに記入して下さい" required></textarea>
+        </div>
+        <input class="send-button" type="submit" value="送信">
+      </form>
+    </div>
+  </section>
+  <!-- お問い合わせEND -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <!-- HRImacaron -->
+        <div class="logo-wrapper">
+          <a href="#" class="logo">RYO TANAKA</a>
+          <div class="sns-block">
+            <a class="mark" href="https://twitter.com/" target="_blank">
+              <img class="sns-mark" src="./image/twitter.png" alt="twitter" width="30">
+            </a>
+            <a class="mark" href="https://www.facebook.com/" target="_blank">
+              <img class="sns-mark" src="./image/facebook.png" alt="facebook" width="30">
+            </a>
+            <a class="mark" href="https://www.instagram.com/" target="_blank">
+              <img class="sns-mark" src="./image/instagram.png" alt="instagram" width="30">
+            </a>
+          </div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#concept">CONCEPT</a></li>
+            <li><a href="#feature">FEATURE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">利用規約</a></li>
+            <li><a href="#">特定商取引法について</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+      </div>
+      <small>Copyright © 2021 Portfolio inc. All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
